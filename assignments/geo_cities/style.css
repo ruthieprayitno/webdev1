@@ -1,0 +1,109 @@
+body{
+    background-color: #651fff;
+    background-image: url("gifs/body.gif")
+}
+
+.title{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-weight: bolder;
+    font-size: 4em;
+    text-align: center;
+    -webkit-text-stroke: 2px black;
+}
+
+.fancy-text{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    -webkit-text-stroke: 2px #652fff;
+    color: white;
+    font-size: 5em;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.fancy-box{
+    margin-top: 2em;
+    padding: 20px;
+    background-image: url("gifs/angel.gif");
+}
+
+.right{
+    position: absolute;
+    right:0px;
+    height: 70px;
+}
+
+.left{
+    position: absolute;
+    left: 0px;
+    height: 70px;
+}
+
+.border-pattern{
+    border-width: 50px;
+    border-style: solid;
+    -webkit-border-image: url("gifs/card.gif");
+}
+
+#p1{
+    position: absolute;
+    left: 0;
+    width: 300px;
+}
+
+#p2{
+    position: absolute;
+    top: 600px;
+    bottom: 0;
+    left: 450px;
+    width: 600px;
+    
+}
+
+#p3{
+    position: absolute;
+    right: 0;
+    width: 200px;
+}
+
+#p4{
+   position: absolute;
+   left: 0;
+   top: 1100px;
+    width: 600px;
+}
+
+#p5{
+    position: absolute;
+    top: 1200px;
+    right: 470px;
+    width: 600px;
+}
+
+#p6{
+    position: absolute;
+    top: 1200px;
+    height: 700px;
+    right: 0;
+}
+
+#p7{
+    position: absolute;
+    top: 2400px;
+    width: 300px;
+    left: 0;
+}
+
+#p8{
+    position: absolute;
+    top: 1800px;
+    width: 600px;
+    right: 470px;
+}
+
+#p9{
+    position: absolute;
+    top: 2400px;
+    width: 300px;
+    right: 0;
+}
