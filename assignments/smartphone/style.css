@@ -1,0 +1,97 @@
+body{
+    background-color: yellowgreen;
+}
+
+.phone-container{
+    height: 70vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 100px;
+}
+
+.row {
+    background: url(images/Sky.jpg);
+    padding: 1em;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.box {
+    width: 12vmin;
+    height: 12vmin;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    padding: .5em;
+    margin: .5em;
+}
+
+
+.box1 { background-image: url(images/LADY.jpg); }
+
+.box2{
+    background-image: url(images/laterenaissance.jpg);
+}
+
+.box3{
+
+    background-image: url(images/black_musician.png);
+}
+
+.box4{
+    background-image: url(images/lebron.jpg);
+}
+
+.box5{
+    background-image: url(images/Lisa.jpg);
+}
+
+.box6{
+    background-image: url(images/angel.jpg);
+}
+
+.box7{
+    background-image: url(images/hands.jpg);
+}
+
+.box8{
+    background-image: url(images/Jesus.jpg);
+}
+
+.box9{
+    background-image: url(images/mary.jpg);
+}
+
+.box10{
+    background-image: url(images/school-of-athens.jpg);
+}
+
+.box11{background-image: url(images/Adam.jpg);}
+
+.box12{background-image: url(images/Botticellis-Primavera.jpg);}
+
+.box13{background-image: url(images/statue.jpg);}
+
+.box14{background-image: url(images/Sandro_Botticelli.jpg);}
+
+.box15{background-image: url(images/VanGoningen.jpg);}
+
+.box16{background-image: url(images/Tintoretto.jpg);}
+
+.box17{background-image: url(images/cieling.jpg);}
+
+.box18{background-image: url(images/fight.png);}
+
+.box19{background-image: url(images/pretty.jpg);}
+
+.box20{background-image: url(images/her.jpg);}
+
+a:hover{
+    color: white;
+    z-index: -1;
+  }
