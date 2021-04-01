@@ -1,0 +1,128 @@
+body { background-color:lightBlue; }
+#snow{
+    background: none;
+    font-family: Androgyne;
+    background-image: url(images/corndog-tile-1.png), url(images/corndog\ tile.png), url(images/corndog\ tile2.png);
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index:1;
+    -webkit-animation: snow 1000s linear infinite;
+    -moz-animation: snow 1000s linear infinite;
+    -ms-animation: snow 1000s linear infinite;
+    animation: snow 1000s linear infinite;
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    -o-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+@keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  100% {background-position: 50000px 50000px, 10000px 20000px, -10000px 15000px;}          
+}
+@-moz-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  100% {background-position: 50000px 50000px, 10000px 20000px, -10000px 15000px;}          
+}
+@-webkit-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  100% {background-position: 50000px 50000px, 10000px 20000px, -10000px 15000px;}          
+}
+@-ms-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  100% {background-position: 50000px 50000px, 10000px 20000px, -10000px 15000px;}          
+}
+
+.left-bar{
+  height: 100%;
+  width: 0;
+  position: fixed;
+  display: flex;
+  z-index: 1;
+  top:  0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+
+.sidenav a{
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: brown;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+
+.pink-box{
+    background-color: #ff6ec7;
+    border-style: solid;
+    border-color: #90ee90;
+    padding: 20px 0px 20px 0px;
+    margin-bottom: 0%;
+    margin: 0 auto;
+    border-width: 10px 10px 0px 10px;
+    text-align: center;
+    justify-content: center;
+    display: flex
+}
+
+.orange-box{
+  background-color: orangered;
+  border-style: solid;
+  border-color: #90ee90;
+  padding: 20px 0px 20px 0px;
+  margin-top: 0%;
+  border-width: 0px 10px 10px 10px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+
+.box-container{
+    height: 70vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 100px;
+}
+
+.row {
+    background: url(images/Sky.jpg);
+    padding: 1em;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.box {
+    width: 12vmin;
+    height: 12vmin;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    padding: .5em;
+    margin: .5em;
+}
