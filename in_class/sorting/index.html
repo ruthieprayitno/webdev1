@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	
+	<meta charset="utf-8">
+	
+	<title>In-class Assignment 10</title>
+	
+	<link rel="stylesheet" href="stylesheet.css">
+	
+</head>
+
+<body>
+
+  <div id="container">
+
+<header>
+<h1>***Company name***</h2>
+<h2>***Branding slogan***</h2>
+</header>
+
+<nav>
+  <ul id="main-list">
+<!-- Copy the entire block of code below, and paste it for as many categories that you will need -->
+  
+  <li>***Category name here***
+	<ul>
+	<li>***Subcategory item***</li>
+	<li>***Subcategory item***</li>
+	<li>***Subcategory item***</li>
+	<li>***Subcategory item***</li>
+	<li>***Subcategory item***</li>
+	</ul>
+  </li>
+  
+
+  
+  <!-- If you want a list-item to lead to a sub-sub-category, then replace that list item with the following
+  
+  <li class="child-sub">***Subcategory item***
+	<ul>
+		<li>***Child subcategory item***</li>
+		<li>***Child subcategory item***</li>
+		<li>***Child subcategory item***</li>
+	</ul>
+  </li>
+  
+  -->
+  
+  
+<!-- No pasting below here -->
+</ul>
+</nav>
+
+
+
+<footer>
+    <p>&#169; ***Your company name*** </p>
+</footer>
+
+
+
+
+
+  </div><!-- close "container" -->
+ 
+ 
+ 
+ 
+ 
+<!-- Link to jQuery: Google CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script>
+$('ul ul').hide();
+$(document).ready(function() {
+	$('nav>ul>li').click(function() {
+	$('nav>ul>li').removeClass('blue');
+	$('ul#main-list>li>ul:visible').slideUp(300);
+	$(this).children('ul#main-list>li>ul:hidden').slideDown(300);
+	$(this).addClass('blue');
+});
+
+$('li.child-sub').hover(function() {
+          $('li.child-sub').children('ul:visible').slideUp(300);
+	$(this).children('ul:hidden').slideDown(300);
+});
+
+}); //closes .ready
+</script> 
+
+</body>
+	
+</html> 
