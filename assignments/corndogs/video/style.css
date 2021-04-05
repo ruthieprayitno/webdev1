@@ -2,7 +2,7 @@ body { background-color:lightBlue; }
 #snow{
     background: none;
     font-family: Androgyne;
-    background-image: url(images/corndog-tile-1.png), url(images/corndog\ tile.png), url(images/corndog\ tile2.png);
+    background-image: url(../images/corndog-tile-1.png), url(../images/corndog\ tile.png), url(../images/corndog\ tile2.png);
     height: 100%;
     left: 0;
     position: absolute;
@@ -64,77 +64,4 @@ body { background-color:lightBlue; }
   margin-left: 140px; /* Same width as the sidebar + left position in px */
   font-size: 28px; /* Increased text to enable scrolling */
   padding: 0px 10px;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-
-
-.pink-box{
-    background-color: #ff6ec7;
-    border-style: solid;
-    border-color: #90ee90;
-    padding: 20px 0px 20px 0px;
-    margin-bottom: 0%;
-    margin: 0 auto;
-    border-width: 10px 10px 0px 10px;
-    text-align: center;
-    justify-content: center;
-    display: flex
-}
-
-.orange-box{
-  background-color: orangered;
-  border-style: solid;
-  border-color: #90ee90;
-  padding: 20px 0px 20px 0px;
-  margin-top: 0%;
-  border-width: 0px 10px 10px 10px;
-  text-align: center;
-  justify-content: center;
-  display: flex;
-}
-
-.white-box{
-  background-color: white;
-  padding: 20px 20px 20px 20px;
-  justify-content: center;
-  text-align: center;
-  display: wrap;
-}
-
-.quote{
-  font-family: 'Dela Gothic One', cursive;
-
-}
-
-.box-container{
-    height: 70vh; 
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
-    align-items: center;
-    margin-top: 100px;
-}
-
-.row {
-    background: url(images/Sky.jpg);
-    padding: 1em;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-}
-
-.box {
-    width: 12vmin;
-    height: 12vmin;
-    justify-content: center;
-    align-items: center;
-    background-size: cover;
-    padding: .5em;
-    margin: .5em;
 }
