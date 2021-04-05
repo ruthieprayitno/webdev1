@@ -138,3 +138,8 @@ body { background-color:lightBlue; }
     padding: .5em;
     margin: .5em;
 }
+
+iframe{
+  max-width: 100%;
+  height: auto;
+}
