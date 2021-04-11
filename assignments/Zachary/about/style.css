@@ -1,0 +1,107 @@
+body { background-color: salmon; }
+#dance{
+    background: none;
+    font-family: Androgyne;
+    background-image: url(images/frisk.png), url(images/sans.png), url(images/papryus.png);
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index:1;
+    -webkit-animation: snow 1000s linear infinite;
+    -moz-animation: snow 1000s linear infinite;
+    -ms-animation: snow 1000s linear infinite;
+    animation: snow 1000s linear infinite;
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    -o-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+@keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  100% {background-position: 50000px 50000px, 10000px 20000px, -10000px 15000px;}          
+}
+@-moz-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  100% {background-position: 50000px 50000px, 10000px 20000px, -10000px 15000px;}          
+}
+@-webkit-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  100% {background-position: 50000px 50000px, 10000px 20000px, -10000px 15000px;}          
+}
+@-ms-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  100% {background-position: 50000px 50000px, 10000px 20000px, -10000px 15000px;}          
+}
+
+.topnav {
+    background-color:black;
+    overflow: hidden;
+    z-index: 3;
+    position: fixed;
+    display: block;
+    font-size: 100%;
+    width: 100%;
+    margin: 0 0 0 0;
+    padding-top: 0;
+    padding-left: 0;
+  }
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  .striped{
+    font-size: 128px;
+    background-size: 16px;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-color: #AC0;
+    background-image: -webkit-linear-gradient(45deg, rgba(0, 0, 0, .3) 25%, transparent 25%, transparent 50%, rgba(0, 0, 0, .3) 50%, rgba(0, 0, 0, .3) 75%, transparent 75%, transparent);
+    flex-wrap: wrap;
+    position: fixed;
+    z-index: 4;
+    left: 30%;
+}
+
+.white-block{
+    background-color: #AC0;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    z-index: 3;
+    border-style: solid;
+    border-color: violet;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 5;
+}
+
+.main {
+  margin-left: 140px; /* Same width as the sidebar + left position in px */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
