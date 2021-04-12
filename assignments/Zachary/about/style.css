@@ -2,7 +2,7 @@ body { background-color: salmon; }
 #dance{
     background: none;
     font-family: Androgyne;
-    background-image: url(images/frisk.png), url(images/sans.png), url(images/papryus.png);
+    background-image: url(../images/frisk.png),url(../images/papryus.png), url(../images/sans.png);
     height: 100%;
     left: 0;
     position: absolute;
@@ -100,8 +100,22 @@ body { background-color: salmon; }
   z-index: 5;
 }
 
-.main {
-  margin-left: 140px; /* Same width as the sidebar + left position in px */
-  font-size: 28px; /* Increased text to enable scrolling */
-  padding: 0px 10px;
+.container{
+  height: 70vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 100px;
 }
+
+.child{
+    background: white;
+    padding: 1em;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+}
+

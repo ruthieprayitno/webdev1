@@ -2,7 +2,7 @@ body { background-color: salmon; }
 #dance{
     background: none;
     font-family: Androgyne;
-    background-image: url(images/frisk.png), url(images/sans.png), url(images/papryus.png);
+    background-image: url(../images/frisk.png),url(../images/papryus.png), url(../images/sans.png);
     height: 100%;
     left: 0;
     position: absolute;
@@ -100,8 +100,50 @@ body { background-color: salmon; }
   z-index: 5;
 }
 
-.main {
-  margin-left: 140px; /* Same width as the sidebar + left position in px */
-  font-size: 28px; /* Increased text to enable scrolling */
-  padding: 0px 10px;
+.container{
+  height: 70vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  margin-top: 100px;
 }
+
+.child {
+  background:yellow;
+  padding: 1em;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+.box {
+  width: 13vmin;
+  height: 13vmin;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  padding: 1em;
+  margin: 1em;
+}
+
+.box1 { background-image: url(../images/1.jpg); }
+
+.box2 { background-image: url(../images/2.jpg); }
+
+.box3 { background-image: url(../images/3.jpg); }
+
+.box4 { background-image: url(../images/4.jpg); }
+
+.box5 { background-image: url(../images/5.jpg); }
+
+.box6 { background-image: url(../images/6.jpg); }
+
+.box7 { background-image: url(../images/7.jpg); }
+
+.box8 { background-image: url(../images/8.jpg); }
+
+.box9 { background-image: url(../images/9.jpg); }
+
