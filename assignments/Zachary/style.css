@@ -96,12 +96,8 @@ body { background-color: salmon; }
   margin-right: auto;
   width: 100%;
   height: auto;
-  position: relative;
-  z-index: 5;
+  position: absolute;
 }
 
-.main {
-  margin-left: 140px; /* Same width as the sidebar + left position in px */
-  font-size: 28px; /* Increased text to enable scrolling */
-  padding: 0px 10px;
-}
+
+

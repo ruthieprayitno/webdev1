@@ -2,7 +2,7 @@ body { background-color: salmon; }
 #dance{
     background: none;
     font-family: Androgyne;
-    background-image: url(../images/frisk.png),url(../images/papryus.png), url(../images/sans.png);
+    background-image: url(../images/frisk.png), url(../images/papryus.png), url(../images/sans.png);
     height: 100%;
     left: 0;
     position: absolute;
