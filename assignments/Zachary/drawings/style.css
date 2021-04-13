@@ -77,15 +77,6 @@ body { background-color: salmon; font-family: Androgyne;}
   flex-wrap: wrap;
 }
 
-/* .child {
-  background:yellow;
-  padding: 1em;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  align-items: center;
-} */
 
 .box {
   width: 25vmin;
