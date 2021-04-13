@@ -1,60 +1,37 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
 body { background-color: salmon; font-family: Androgyne;}
 #bg-dance{
-    background: none;
-    
     background-image: url(../images/frisk.png),url(../images/papryus.png), url(../images/sans.png);
-    
     left: 0;
-    position: absolute;
+    position: fixed;
     top: 0;
     width: 100%;
-    z-index:1;
-    /* -webkit-animation: snow 1000s linear infinite;
-    -moz-animation: snow 1000s linear infinite;
-    -ms-animation: snow 1000s linear infinite; */
-    animation: snow 100s linear infinite;
-    -webkit-transform: translate3d(0,0,0);
-    -moz-transform: translate3d(0,0,0);
-    -ms-transform: translate3d(0,0,0);
-    -o-transform: translate3d(0,0,0);
+    height: 100vh;
+    z-index: -1;    
+    animation: snow 30s linear infinite;
     transform: translate3d(0,0,0);
 }
 @keyframes snow {
   0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
-  100% {background-position: 150vw 150vh, 10000px 20000px, -10000px 15000px;}          
+  100% {background-position: 200vw 200vh, 100vw 250vh, -200vw 200vh;}          
 }
-/* @-moz-keyframes snow {
-  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
-  100% {background-position: 50000px 50000px, 10000px 20000px, -10000px 15000px;}          
-}
-@-webkit-keyframes snow {
-  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
-  100% {background-position: 50000px 50000px, 10000px 20000px, -10000px 15000px;}          
-}
-@-ms-keyframes snow {
-  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
-  100% {background-position: 50000px 50000px, 10000px 20000px, -10000px 15000px;}          
-} */
 
 .topnav {
     background-color:black;
-    overflow: hidden;
     z-index: 3;
     position: fixed;
-    display: block;
-    font-size: 100%;
+    top: 0;
+    left: 0;
+    font-size: clamp(12px, 4vmin, 20px);
     width: 100%;
-    margin: 0 0 0 0;
-    padding-top: 0;
-    padding-left: 0;
-  }
+    display: flex;
+}
 
 .topnav a {
-    float: left;
     color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
+    padding: .8em 1em;
     text-decoration: none;
+    margin: 0 3vmin;
   }
 
 .topnav a:hover {
@@ -62,52 +39,45 @@ body { background-color: salmon; font-family: Androgyne;}
     color: black;
   }
 
-  .topnav a.active {
+.topnav a.active {
     background-color: #4CAF50;
     color: white;
-  }
-
-  .striped{
-    font-size: 128px;
-    background-size: 16px;
-    -webkit-background-clip: text;
-    color: transparent;
-    background-color: #AC0;
-    background-image: -webkit-linear-gradient(45deg, rgba(0, 0, 0, .3) 25%, transparent 25%, transparent 50%, rgba(0, 0, 0, .3) 50%, rgba(0, 0, 0, .3) 75%, transparent 75%, transparent);
-    flex-wrap: wrap;
-    position: fixed;
-    z-index: 4;
-    left: 30%;
 }
 
-.white-block{
-    background-color: #AC0;
-    width: 100%;
-    height: auto;
-    position: fixed;
-    z-index: 3;
-    border-style: solid;
-    border-color: violet;
-}
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  height: auto;
-  position: relative;
-  z-index: 5;
+.striped {
+  background-size: 16px;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-color: #AC0;
+  background-image: -webkit-linear-gradient(45deg, rgba(0, 0, 0, .3) 25%, transparent 25%, transparent 50%, rgba(0, 0, 0, .3) 50%, rgba(0, 0, 0, .3) 75%, transparent 75%, transparent);
 }
 
 .container{
-  display: flex;
+  margin-top: 4em;
+  /* display: flex;
   flex-direction: column;
   justify-content: center; 
-  align-items: center;
+  align-items: center; */
 }
 
-.child {
+.page-title {
+  font-size: 20vmin;
+  border: 4px solid violet;
+  text-align: center;
+}
+
+.gallery {
+  margin: 1rem auto;
+  width: 80vw;
+  max-width: 1000px;
+  display: flex;
+  background: yellow;
+  justify-content: center;
+
+  flex-wrap: wrap;
+}
+
+/* .child {
   background:yellow;
   padding: 1em;
   margin: 0;
@@ -115,13 +85,11 @@ body { background-color: salmon; font-family: Androgyne;}
   justify-content: center;
   flex-direction: row;
   align-items: center;
-}
+} */
 
 .box {
-  width: 13vmin;
-  height: 13vmin;
-  justify-content: center;
-  align-items: center;
+  width: 25vmin;
+  height: 25vmin;
   background-size: cover;
   padding: 1em;
   margin: 1em;
