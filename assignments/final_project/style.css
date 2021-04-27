@@ -1,0 +1,38 @@
+.link{
+    position: relative;
+    display: inline-block;
+    font-size: 2em;
+    font-weight: 800;
+    color: royalblue;
+    overflow: hidden;
+}
+
+.link{
+    background: linear-gradient(to right, midnightblue 50%, royalblue 50%);
+}
+
+.link{
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+}
+
+a{
+    transition: background-position 275ms ease;
+}
+
+a:hover{
+    background-position: 0 100%;
+}
+
+h1{
+    font-size: 2em;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
