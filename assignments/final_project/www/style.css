@@ -1,5 +1,6 @@
 .none{
     text-decoration: none;
+
 }
 
 .dropbtn {
@@ -104,5 +105,18 @@ img {
     display: grid;
     grid-gap: 3rem;
   }
+
+.rollover1{
+  display: block;
+  background: url(../images/nature1.gif) no-repeat;
+  -webkit-transition: all .7s ease-in-out;
+  -moz-transition: all .7s ease-in-out;
+  -o-transition: all .7s ease-in-out;
+  transition: all .7s ease-in-out;
+}
+
+.rollover1:hover {
+  background: url(../images/nature2.gif)
+}
 
  
