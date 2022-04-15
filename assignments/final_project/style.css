@@ -125,8 +125,8 @@ img {
 }
 
 .box {
-  width: 12vmin;
-  height: 12vmin;
+  width: 20vmin;
+  height: 20vmin;
   justify-content: center;
   align-items: center;
   background-size: cover;
