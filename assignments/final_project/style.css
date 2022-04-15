@@ -120,7 +120,7 @@ img {
   padding: 1em;
   margin: 0;
   display: flex;
-  /*justify-content: center;*/
+  justify-content: center;
   flex-direction: row;
   align-items: center;
 }
@@ -128,7 +128,7 @@ img {
 .box {
   width: 20vmin;
   height: 20vmin;
-  /*justify-content: center;*/
+  justify-content: center;
   align-items: center;
   background-size: cover;
   padding: .5em;
@@ -191,7 +191,14 @@ p.date  {
   color: black;
 }
 
-.img-fluid, .img-thumbnail {
+.textbox{
+  color: black;
+   margin-left: 10px;
+   margin-right: 10px;
+   text-align: center;
+}
+
+/*.img-fluid, .img-thumbnail {
   max-width: 100%;
   height: auto
-}
+}*/
