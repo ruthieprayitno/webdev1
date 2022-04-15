@@ -125,7 +125,7 @@ img {
   align-items: center;
 }
 
-.box {
+.box, .textbox{
   width: 20vmin;
   height: 20vmin;
   justify-content: center;
