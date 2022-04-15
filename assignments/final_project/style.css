@@ -93,6 +93,7 @@ head{
    height: 4rem;
 }
 
+/*projects*/
 img {
     width: 100%;
     height: auto;
@@ -119,7 +120,7 @@ img {
   padding: 1em;
   margin: 0;
   display: flex;
-  justify-content: center;
+  /*justify-content: center;*/
   flex-direction: row;
   align-items: center;
 }
@@ -127,7 +128,7 @@ img {
 .box {
   width: 20vmin;
   height: 20vmin;
-  justify-content: center;
+  /*justify-content: center;*/
   align-items: center;
   background-size: cover;
   padding: .5em;
