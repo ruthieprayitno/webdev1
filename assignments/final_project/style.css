@@ -133,6 +133,7 @@ img {
   background-size: cover;
   padding: .5em;
   margin: .5em;
+  text-align: center;
 }
 
 .box1 { background-image: url(gifs/gamescreen.gif); }
