@@ -72,7 +72,6 @@ a:hover{
 
 h1{
     font-size: 2em;
-    position: relative;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
@@ -113,7 +112,7 @@ img {
     flex-direction: row;
     justify-content: center; 
     align-items: center;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .column {
@@ -127,8 +126,8 @@ img {
 }
 
 .box, .textbox{
-  width: 20vmin;
-  height: 20vmin;
+  width: 50vmin;
+  height: 50vmin;
   justify-content: center;
   align-items: center;
   background-size: cover;
