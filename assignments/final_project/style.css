@@ -93,6 +93,19 @@ head{
    height: 4rem;
 }
 
+/*NAV*/
+.navigation-clean.navbar-light .navbar-nav .nav-link{
+  padding-left: 0px;
+}
+.navbar navbar-light navbar-expand-md navigation-clean p {
+margin-top: 18px;
+}
+.navbar navbar-light navbar-expand-md navigation-clean{
+  padding-top: 18px;
+ 
+}
+
+
 /*projects*/
 img {
     width: 100%;
