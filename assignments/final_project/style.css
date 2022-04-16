@@ -124,6 +124,10 @@ margin-top: 18px;
   background-position: 100%;
 }
 
+.about-link{
+  position: right;
+}
+
 
 /*projects*/
 img {
