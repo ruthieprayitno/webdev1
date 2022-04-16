@@ -94,7 +94,7 @@ head{
 }
 
 /*NAV*/
-.navigation-clean.navbar-light .navbar-nav .nav-link{
+/*.navigation-clean.navbar-light .navbar-nav .nav-link{
   padding-left: 0px;
 }
 .navbar navbar-light navbar-expand-md navigation-clean p {
@@ -103,8 +103,21 @@ margin-top: 18px;
 .navbar navbar-light navbar-expand-md navigation-clean{
   padding-top: 18px;
  
+}*/
+.nav {
+	position: sticky;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 60px;
+	top: 0;
+  background: pink;
 }
 
+.nav:title{margin: 0px 30px;}
+
+.nav:item{display: inline block;
+margin: 0px 30px;}
 
 /*projects*/
 img {
