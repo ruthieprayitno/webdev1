@@ -114,9 +114,9 @@ margin-top: 18px;
   background: pink;
 }
 
-.nav:title{margin: 0px 30px;}
+.nav-title{margin: 0px 30px;}
 
-.nav:item{display: inline block;
+.nav-item{display: inline block;
 margin: 0px 30px;}
 
 /*projects*/
