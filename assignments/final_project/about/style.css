@@ -40,7 +40,7 @@ body{
 }
 
 /*information*/
-header .container {
+/*header .container {
     position: relative;
     z-index: 2
 }
@@ -55,4 +55,4 @@ header .container {
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px
-}
+}*/
